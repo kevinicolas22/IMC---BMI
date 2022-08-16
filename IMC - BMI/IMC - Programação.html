@@ -1,6 +1,17 @@
 <html>
+
     <head>
-        <title>Calculadora de IMC</title>
+        <meta charset="UTF-8"/>
+        <title>Calculadora de IMC - BMI</title>
+        <link rel="stylesheet" type="text/css" 
+        href="Styles.css"
+    
+    </head>
+
+    <body>
+
+        <!--FUNCTIONS-->
+
         <script type="text/javascript">
             const calculaImc = () => {
                 const altura = document.imcForm.elements["altura"].value;
@@ -24,19 +35,32 @@
                 }
             }
         </script>
-    </head>
 
-    <body>
-        <form id="imcForm" name="imcForm" action="#"> 
-            <label for="altura">Insira a altura:</label>
-            <input type="text" id="altura" name="altura">
-            <br>
+        <!--DESCRIPTIONS-->
+    
+        <header>
+        <div id="Titulo"  
+            <h1>Calculadora de IMC - BMI</h1>
+        </div>  
 
-            <label for="peso">Insira o peso:</label>
-            <input type="text" id="peso" name="peso">
-            <br>
+        <div id="Interface">
+        
+            <h2>Para calcular o seu IMC preencha os campos abaixo:</h2>
 
-            <input type="submit" value="Calcular" onclick="calculaImc()">
-        </form>
+            <h3>
+                <form id="imcForm" name="imcForm" action="#"> 
+                <label for="altura">Insira a altura:</label>
+                <input type="text" id="altura" name="altura">
+
+                <label for="peso">Insira o peso:</label>
+                <input type="text" id="peso" name="peso">
+                <br>
+                <br>
+
+                <input type="submit" value="Calcular" onclick="calculaImc()">
+                </form>
+            </h3>
+        </header>
+    </div>
     </body>
 </html>

@@ -1,0 +1,35 @@
+body {
+        background-color: rgb(255, 255, 255);
+
+}
+
+div#Titulo{
+    color: rgb( 4, 116, 128);
+    background-color: rgb(225, 226, 225);
+    font-size: 45;
+    position:relative;
+    text-align: center;
+    border-radius: 13px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+   margin: 35px 40px 70px 50px;
+   padding: 40px
+}
+
+
+div#Interface {
+    color: rgb(225, 226, 225);
+    background-color:rgb( 4, 116, 128);
+    font-size: 20;
+    position:relative;
+    text-align:justify;
+    border-radius: 13px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    margin: -70px 40px 70px 50px;
+    padding: 40px
+}
+
+
+
+
