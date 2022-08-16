@@ -1,4 +1,5 @@
 body {
+        font-family: Arial;
         background-color: rgb(255, 255, 255);
 
 }
@@ -28,6 +29,17 @@ div#Interface {
     border-top-right-radius: 0px;
     margin: -70px 40px 70px 50px;
     padding: 40px
+}
+
+div#Botao {
+    size: 60px;
+
+    
+    
+}
+
+button {
+    size: 60px;
 }
 
 
